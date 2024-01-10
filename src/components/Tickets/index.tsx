@@ -4,7 +4,6 @@ import { useAppDispatch, RootState } from '../../store';
 import styled from 'styled-components';
 import { fetchTickets } from '../../reducers/tickets';
 import TicketRow from '../TicketRow';
-import { formatPrice } from '../../utils/utils';
 
 const Tickets = () => {
   const dispatch = useAppDispatch();
